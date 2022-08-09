@@ -6,8 +6,8 @@
   "author": "symphony <jciurc@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "snowpack dev --port 3000",
-    "build": "snowpack build"
+    "dev": "snowpack dev --config ./snowpack.config.ts --mode development --port 3000",
+    "build": "snowpack build --config ./snowpack.config.ts"
   },
   "dependencies": {
     "react": "^18.2.0",
