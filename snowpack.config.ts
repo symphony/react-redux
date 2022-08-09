@@ -7,6 +7,7 @@ module.exports = {
     public: { url: '/', static: true },
     src: '/dist',
   },
+  external: ['react'],
   plugins: [
     /* ... */
   ],
