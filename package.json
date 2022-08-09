@@ -6,7 +6,7 @@
   "author": "symphony <jciurc@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "snowpack dev",
+    "dev": "snowpack dev --port 3000",
     "build": "snowpack build"
   },
   "dependencies": {

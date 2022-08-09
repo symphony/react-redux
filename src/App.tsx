@@ -1,5 +1,4 @@
 const App = () => {
-  alert("My World");
   return (
     <>
       <h1>my first snowpack+react app</h1>
