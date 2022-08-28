@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "module": "ESNext",
     "target": "es5",
     "strict": true,
@@ -16,6 +16,5 @@
   "include": [
     "./src/**/*.ts*",
     "types", "src/index.*", "src/App.jsx",
-
   ]
 }
